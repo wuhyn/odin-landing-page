@@ -42,7 +42,7 @@
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .header {
@@ -91,4 +91,41 @@
     height: 250px;
     width: 450px;
 
+}
+
+/*Photo Grid*/
+.photo-grid-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.photo-grid-title {
+    font-size: 36px;
+    font-weight: bold;
+    color:#1F2937;
+    margin: 30px;
+}
+
+.photo-grid {
+    height: 350px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.photo-grid-item {
+    padding: 20px;
+}
+
+.photo-grid-item p {
+    color: #1F2937;
+}
+
+.photo-grid-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
 }
