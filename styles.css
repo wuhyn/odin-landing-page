@@ -203,3 +203,23 @@
     display: inline-block;
     font-size: 16px;
 }
+
+/*Footer section*/
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 90px;
+    width: 100%;
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .heading {
+    font-size: 16px;
+    color: #E5E7EB;
+}
